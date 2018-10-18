@@ -8,6 +8,7 @@
   margin-bottom: 0;
   background-color: #fff;
 }
+
 @media (min-width: 768px) {
   .jumbotron {
     padding-top: calc(var(--jumbotron-padding-y) * 2);
@@ -35,3 +36,10 @@ footer {
 footer p {
   margin-bottom: .25rem;
 }
+
+
+.jumbotron {
+  background: #fff url("img/deco_back.jpg") no-repeat 0 0;
+    background-size:cover;
+}
+
